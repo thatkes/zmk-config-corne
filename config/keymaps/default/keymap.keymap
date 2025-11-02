@@ -8,6 +8,11 @@
     default_layer {
       display-name = "Base Layer";
       bindings = <
+        //  Q W F P B   J L U Y :
+        //  A R S T G   M N E I O
+        //  X C D V Z   K H , . /
+        //  Symbols Space Nav
+        //  Nums  Space Esc
         &kp Q    &kp W    &kp F    &kp P    &kp B      &kp J    &kp L    &kp U    &kp Y    &kp SEMI
 
         &hm LCTRL A   &hm LALT R   &hm LGUI S   &hm LSHFT T   &kp G
@@ -22,6 +27,9 @@
     numpad_layer {
       display-name = "Numpad Layer";
       bindings = <
+        //  x x x x x   + 1 2 3 *
+        //  x x x x x   - 4 5 6 /
+        //  x x x x x   = 7 8 9 0
         &none &none &none &none &none   &kp PLUS  &kp N1   &kp N2   &kp N3   &kp ASTRK
         &none &none &none &none &none   &kp MINUS &kp N4   &kp N5   &kp N6   &kp FSLH
         &none &none &none &none &none   &kp EQUAL &kp N7   &kp N8   &kp N9   &kp N0
@@ -30,6 +38,7 @@
     symbols_layer {
       display-name = "Symbols Layer";
       bindings = <
+        // redoing lol
         &kp AT      &kp HASH  &hm LSHFT F  &hm LSHFT P  &hm LSHFT B  &none  &hm RSHFT L  &none  &none  &kp FSLH
 
         &kp AMP     &kp PIPE  &kp ASTERISK &kp TILD  &kp PERC    &kp CIRC  &kp COLON  &kp DOLLAR &kp BSLH &kp GRAVE
@@ -40,6 +49,7 @@
     nav_layer {
       display-name = "Nav Layer";
       bindings = <
+        //  vim mnei and nothing else yet
         &none &none &none &none &none      &none &none &none &none &none
         &none &none &none &none &none      &kp UP   &kp DOWN   &kp RIGHT   &kp LEFT   &none
         &none &none &none &none &none      &none &none &none &none &none
