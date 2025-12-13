@@ -33,7 +33,7 @@
         Colemak {
             bindings = <
 &trans  &kp Q  &kp W  &kp F  &kp P   &kp B     &kp J   &kp L   &kp U      &kp Y    &kp SEMI  &trans
-&trans  &kp A  &kp R  &kp S  &kp T   &kp G     &kp M   &kp N   &kp E      &kp I    &kp O  &trans
+&trans  &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LEFT_GUI S  &mt LEFT_SHIFT T   &kp G     &kp M   &mt RIGHT_SHIFT N   &mt RIGHT_GUI E     &mt RIGHT_ALT I   &mt RIGHT_CONTROL O  &trans
 &trans  &kp X  &kp C  &kp D  &kp V   &kp Z     &kp K   &kp H   &kp COMMA  &kp DOT  &kp FSLH  &trans
                       &to 0  &trans  &trans    &trans  &trans  &trans
             >;
