@@ -16,7 +16,7 @@
 &trans  &kp B  &kp L  &kp D  &kp W  &kp Z                                      &kp SQT  &kp F  &kp O  &kp U  &kp J  &trans
 &trans  &mt LEFT_CONTROL N  &mt LEFT_ALT R  &mt LEFT_GUI T  &lt 1 S  &kp G     &kp Y  &lt 1 H  &mt RIGHT_GUI A  &mt RIGHT_ALT E  &mt RIGHT_CONTROL I  &trans
 &trans  &kp Q  &kp X  &kp M  &kp C  &kp V                                      &kp K  &kp P  &kp PERIOD  &kp SLASH  &kp COMMA  &trans
-                                     &mo 5  &mt TAB K_REDO  &kp SPACE     &kp ENTER  &kp ESCAPE  &kp BACKSPACE
+                                     &mo 5  &kp TAB  &kp SPACE     &kp ENTER  &kp ESCAPE  &kp BACKSPACE
             >;
         };
 
