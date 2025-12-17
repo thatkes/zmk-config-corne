@@ -53,7 +53,7 @@
         Symbols {
             bindings = <
 &trans  &kp GRAVE      &kp LT    &kp GT  &kp MINUS  &kp PIPE     &kp UNDER  &kp LBRC   &kp RBRC  &kp DLLR  &kp CARET  &trans
-&trans  &kp EXCL   &kp STAR  &kp FSLH    &kp EQUAL  &kp AMPS     &kp HT   &kp LPAR   &kp RPAR  &kp SEMI      &kp DQT  &trans
+&trans  &kp EXCL   &kp STAR  &kp FSLH    &kp EQUAL  &kp AMPS     &kp HASH   &kp LPAR   &kp RPAR  &kp SEMI      &kp DQT  &trans
 &trans  &kp TILDE  &kp PLUS  &kp LBKT    &kp RBKT   &kp PRCNT    &kp AT     &kp COLON  &kp BSLH     &kp DOT       &kp SQT  &trans
                                      &to 0       &trans     &trans           &trans         &to 0         &trans
             >;
@@ -63,7 +63,7 @@
             bindings = <
 &trans  &bootloader  &sys_reset  &bt BT_PRV  &bt BT_NXT  &trans    &kp PLUS  &kp N1      &kp N2     &kp N3  &kp STAR  &trans
 &trans  &to 6        &kp LEFT_SHIFT(GUI(W))      &kp GUI(F)      &to 4       &trans    &kp MINUS     &kp N4      &kp N5     &kp N6  &kp FSLH  &trans
-&trans  &to 3        &kp LEFT_CONTROL(C)      &kp LEFT_CONTROL(V)      &to 2       &trans    &kp X         &kp N7      &kp N8     &kp N9  &kp PRCNT  &trans
+&trans  &to 3        &kp K_COPY      &kp K_PASTE     &to 2       &trans    &kp X         &kp N7      &kp N8     &kp N9  &kp PRCNT  &trans
                                  &trans      &trans      &trans    &kp N0        &kp PERIOD  &kp COMMA
             >;
         };
