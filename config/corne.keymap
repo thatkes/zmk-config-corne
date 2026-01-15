@@ -16,6 +16,24 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+        combo_exclamation {
+            timeout-ms = <50>;
+            key-positions = <7 19>;
+            bindings = <&kp EXCLAMATION>;
+            layers = <0 1 2 3>;
+        };
+        combo_question {
+            timeout-ms = <50>;
+            key-positions = <8 20>;
+            bindings = <&kp QUESTION>;
+            layers = <0 1 2 3>;
+        };
+    };
+};
+
+/ {
     keymap {
         compatible = "zmk,keymap";
 
