@@ -33,7 +33,7 @@
     combo_pound {
       timeout-ms = <50>;
       key-positions = <9 21>;
-      bindings = <&kp HASHTAG>;
+      bindings = <&kp POUND>;
       layers = <0 1 2 3>;
     };
   };
