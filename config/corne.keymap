@@ -34,7 +34,7 @@
       timeout-ms = <50>;
       key-positions = <9 21>;
       bindings = <&kp HASHTAG>;
-      layers = <0 1 2 3;
+      layers = <0 1 2 3>;
     };
   };
 };
