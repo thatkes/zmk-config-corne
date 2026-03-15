@@ -8,7 +8,7 @@
       compatible = "zmk,behavior-hold-tap";
       #binding-cells = <2>;
       flavor = "tap-preferred";
-      tapping-term-ms = <500>;
+      tapping-term-ms = <200>;
       bindings = <&kp>, <&kp>;
       display-name = "Mod-Tap";
     };
@@ -20,19 +20,19 @@
     compatible = "zmk,combos";
     combo_exclamation {
       timeout-ms = <50>;
-      key-positions = <6 18>;
+      key-positions = <7 19>;
       bindings = <&kp EXCLAMATION>;
       layers = <0 1 2 3>;
     };
     combo_question {
       timeout-ms = <50>;
-      key-positions = <7 19>;
+      key-positions = <8 20>;
       bindings = <&kp QUESTION>;
       layers = <0 1 2 3>;
     };
     combo_pound {
       timeout-ms = <50>;
-      key-positions = <8 20>;
+      key-positions = <9 21>;
       bindings = <&kp POUND>;
       layers = <0 1 2 3>;
     };
